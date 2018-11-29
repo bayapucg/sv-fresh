@@ -1,51 +1,4 @@
-/*------------------------------------------------------------------
-[Table of contents]
 
-1. Common styles
-2. Top banner
-3. Header
-  3.1 Nav on top
-  3.2 Top header
-  3.3 Main header
-  3.4 Main menu
-    3.4.1  Vertical megamenus
-    3.4.1  Main menu
-4. Nav menu
-
-5. Home slider
-6. Page top
-  6.1 Latest deals
-  6.2 Popular tabs
-7. Services
-8. Product
-9. Owl carousel
-10. Banner advertisement
-11. Page content
-  11.1 Category featured
-    11.1.1 Banner featured
-    11.1.2 Product featured
-  11.2 Banner bootom
-12. Brand showcase
-13. Hot categories
-14. Footer
-15. Breadcrumb
-16. Columns
-  16.1 Left column
-  16.2 Center column
-17. Order page
-18. Product page
-19. Contact page
-20. Blog page
-21. Login page
-22. Blog
-23. Footer2
-24. Hot deals style 3
-25. Box product
--------------------------------------------------------------------*/
-
-/* ----------------
- [1. Common styles]
- */
  
 body{
     font-family: 'Arial', sans-serif;
@@ -106,6 +59,230 @@ a:focus{
   background: #fd4f00;
   border: 1px solid #fd4f00;
 }
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+.m-0 {
+	margin: 0!important
+}
+.mr-1,
+.mx-1 {
+	margin-right: .25rem!important
+}
+.ml-1,
+.mx-1 {
+	margin-left: .25rem!important
+}
+.mt-1,
+.my-1 {
+	margin-top: .25rem!important
+}
+.mb-1,
+.my-1 {
+	margin-bottom: .25rem!important
+}
+.m-1 {
+	margin: .25rem!important
+}
+.mr-2,
+.mx-2 {
+	margin-right: .5rem!important
+}
+.ml-2,
+.mx-2 {
+	margin-left: .5rem!important
+}
+.mt-2,
+.my-2 {
+	margin-top: .5rem!important
+}
+.mb-2,
+.my-2 {
+	margin-bottom: .5rem!important
+}
+.m-2 {
+	margin: .5rem!important
+}
+.mr-3,
+.mx-3 {
+	margin-right: 1rem!important
+}
+.ml-3,
+.mx-3 {
+	margin-left: 1rem!important
+}
+.mt-3,
+.my-3 {
+	margin-top: 1rem!important
+}
+.mb-3,
+.my-3 {
+	margin-bottom: 1rem!important
+}
+.m-3 {
+	margin: 1rem!important
+}
+.mr-4,
+.mx-4 {
+	margin-right: 1.5rem!important
+}
+.ml-4,
+.mx-4 {
+	margin-left: 1.5rem!important
+}
+.mt-4,
+.my-4 {
+	margin-top: 1.5rem!important
+}
+.mb-4,
+.my-4 {
+	margin-bottom: 1.5rem!important
+}
+.m-4 {
+	margin: 1.5rem!important
+}
+.mr-5,
+.mx-5 {
+	margin-right: 3rem!important
+}
+.ml-5,
+.mx-5 {
+	margin-left: 3rem!important
+}
+.mt-5,
+.my-5 {
+	margin-top: 3rem!important
+}
+.mb-5,
+.my-5 {
+	margin-bottom: 3rem!important
+}
+.m-5 {
+	margin: 3rem!important
+}
+.mr-auto,
+.mx-auto {
+	margin-right: auto!important
+}
+.ml-auto,
+.mx-auto {
+	margin-left: auto!important
+}
+.mt-auto,
+.my-auto {
+	margin-top: auto!important
+}
+.mb-auto,
+.my-auto {
+	margin-bottom: auto!important
+}
+.p-0 {
+	padding: 0!important
+}
+.pr-1,
+.px-1 {
+	padding-right: .25rem!important
+}
+.pl-1,
+.px-1 {
+	padding-left: .25rem!important
+}
+.pt-1,
+.py-1 {
+	padding-top: .25rem!important
+}
+.pb-1,
+.py-1 {
+	padding-bottom: .25rem!important
+}
+.p-1 {
+	padding: .25rem!important
+}
+.pr-2,
+.px-2 {
+	padding-right: .5rem!important
+}
+.pl-2,
+.px-2 {
+	padding-left: .5rem!important
+}
+.pt-2,
+.py-2 {
+	padding-top: .5rem!important
+}
+.pb-2,
+.py-2 {
+	padding-bottom: .5rem!important
+}
+.p-2 {
+	padding: .5rem!important
+}
+.pr-3,
+.px-3 {
+	padding-right: 1rem!important
+}
+.pl-3,
+.px-3 {
+	padding-left: 1rem!important
+}
+.pt-3,
+.py-3 {
+	padding-top: 1rem!important
+}
+.pb-3,
+.py-3 {
+	padding-bottom: 1rem!important
+}
+.p-3 {
+	padding: 1rem!important
+}
+.pr-4,
+.px-4 {
+	padding-right: 1.5rem!important
+}
+.pl-4,
+.px-4 {
+	padding-left: 1.5rem!important
+}
+.pt-4,
+.py-4 {
+	padding-top: 1.5rem!important
+}
+.pb-4,
+.py-4 {
+	padding-bottom: 1.5rem!important
+}
+.p-4 {
+	padding: 1.5rem!important
+}
+.pr-5,
+.px-5 {
+	padding-right: 3rem!important
+}
+.pl-5,
+.px-5 {
+	padding-left: 3rem!important
+}
+.pt-5,
+.py-5 {
+	padding-top: 3rem!important
+}
+.pb-5,
+.py-5 {
+	padding-bottom: 3rem!important
+}
+.p-5 {
+	padding: 3rem!important
+}
+.text-white{
+	color:#fff;
+}
+
 .input{
   border-radius: 0px;
   border: 1px solid #eaeaea;

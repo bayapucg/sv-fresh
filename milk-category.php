@@ -18,7 +18,7 @@
 					<div class="text-center font-cat">heritage</div>
 				</div> 
 			</a>
-			<a href=""> 
+			<a href="milk-calendar.php"> 
 				<div class="col-xs-6 col-md-2 ">
 					<div class="category-bg" style="margin:0 auto;" >
 						<img class="img-resonsive" src="assets/images/milk-cat-icon.png" alt="Milk"/>
