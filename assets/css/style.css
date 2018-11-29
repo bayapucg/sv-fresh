@@ -282,6 +282,12 @@ a:focus{
 .text-white{
 	color:#fff;
 }
+.count-bac-img {
+    background-image: url(../images/count-bac-img.png);
+	
+   
+   
+}
 
 .input{
   border-radius: 0px;

@@ -1,9 +1,10 @@
 <?php include("header.php"); ?>
-<div class="columns-container">
+<div style="background:#f5f5f5;" >
+<div class="columns-container count-bac-img" >
     <div class="container" id="columns">
        <div class="row py-3">
 			<div class="col-md-6 col-xs-12 col-md-offset-3">
-				<div class="card">
+				<div class="card bg-white">
 					<div class="card-header  py-4 px-4 text-white" style="background:#57bb14;">
 						<div class="row">
 							<div class="col-md-6">
@@ -114,6 +115,7 @@
 		
     </div>
 	
+</div>
 </div>
 <?php include("footer.php"); ?>
 <script>
