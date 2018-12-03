@@ -22,7 +22,7 @@
                                     <form method="" id="edit_category" action="">
                                         <div class="form-group">
                                             <label>Category Name</label>
-                                            <input id="name" type="text" class="form-control" name="name" value="milk">
+                                          <div>kdk</div>  <input id="name" type="text" class="form-control" name="name" value="milk">
                                         </div>
                                         <div class="form-group">
                                             <label>Category Image</label>
