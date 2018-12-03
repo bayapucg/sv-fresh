@@ -67,6 +67,36 @@
                                     </form>
                                 </div>
                             </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="table-responsive">
+                                        <table id="myTable" class=" table order-list">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Gmail</th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="text" name="fname" placeholder="FirstName" class="form-control" />
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="lname" placeholder="LastName" class="form-control" />
+                                                    </td>
+                                                    <td>
+                                                        <a class="deleteRow"></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button type="button" class="btn btn-md btn-info" id="addrow">Add Row</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,5 +165,36 @@ $(document).ready(function() {
         })
      
 });
+
+</script>
+
+
+<script>
+    $(document).ready(function () {
+    var counter = 0;
+
+    $("#addrow").on("click", function () {
+        var newRow = $("<tr>");
+        var cols = "";
+
+        cols += '<td><input type="text" class="form-control" placeholder="FirstName" name="fname' + counter + '"/></td>';
+        cols += '<td><input type="text" class="form-control" placeholder="LastName" name="lname' + counter + '"/></td>';
+
+        cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="ion ion-trash-b"></i></button></td>';
+        newRow.append(cols);
+        $("table.order-list").append(newRow);
+        counter++;
+    });
+
+
+
+    $("table.order-list").on("click", ".ibtnDel", function (event) {
+        $(this).closest("tr").remove();       
+        counter -= 1
+    });
+
+
+});
+
 
 </script>
