@@ -7,6 +7,10 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrapValidator.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/dataTables.bootstrap.min.js"></script> 
+	<script src="js/dataTables.bootstrap.min.js"></script>
+	<script src="js/datatables-init.js"></script>
 
     <script src="js/jquery.nicescroll.js"></script>
     <script src="js/scroll-up-bar.min.js"></script>

@@ -23,7 +23,7 @@
         <div class="control-group" id="fields">
             
             <div class="controls"> 
-                <form role="form" autocomplete="off">
+                <form  role="form" >
                     <div class="entry input-group col-xs-3">
                         <input class="form-control" name="fields[]" type="file" placeholder="Type something" />
                     	<span class="input-group-btn">
@@ -36,7 +36,7 @@
             <br>
            
             </div>
-			<div class="clearfix">&nbsp;</div>
+			
 				<button class="btn btn-primary btn-sm">Submit</button>
                 </form>
         </div>
